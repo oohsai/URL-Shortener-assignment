@@ -84,6 +84,11 @@ Redirects to the original URL
 
 ```
 
+### 4. Swagger API Page
+**Endpoint**: `https://url-shortener-assignment-production.up.railway.app/api-docs`  
+**Method**: `GET`  
+**Description**: This endpoint retrieves the Swagger API page.
+
 ## Setup & Deployment Instructions
 
 ### Prerequisites
