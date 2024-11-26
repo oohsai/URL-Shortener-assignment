@@ -1,11 +1,13 @@
 # URL Shortener API
 
+Link : https://url-shortener-assignment-production.up.railway.app/api/v1/
+
 A simple URL shortener service that allows users to shorten long URLs and retrieve their original URLs, along with viewing statistics such as the number of clicks and last accessed time.
 
 ## API Endpoints
 
 ### 1. Shorten URL
-**Endpoint**: `/api/v1/shorten`  
+**Endpoint**: `https://url-shortener-assignment-production.up.railway.app/api/v1/shorten`  
 **Method**: `POST`  
 **Description**: This endpoint accepts a long URL as input and generates a shortened URL. The shortened URL can later be used to redirect to the original URL.
 
@@ -18,7 +20,7 @@ A simple URL shortener service that allows users to shorten long URLs and retrie
 
 ```json
 {
-  "shortUrl": "http://localhost:4000/api/v1/shortenedID"
+  "shortUrl": "https://url-shortener-assignment-production.up.railway.app/api/v1//shortenedID"
 }
 ```
 
@@ -31,7 +33,7 @@ A simple URL shortener service that allows users to shorten long URLs and retrie
 ```
 
 ### 2. Redirect to Original URL
-**Endpoint**: `/api/v1/{shortId}`  
+**Endpoint**: `https://url-shortener-assignment-production.up.railway.app/api/v1/{shortId}`  
 **Method**: `GET`  
 **Description**: This endpoint takes the `shortId` (generated short URL ID) and redirects the user to the original URL associated with it.
 
@@ -51,7 +53,7 @@ Redirects to the original URL
 ```
 
 ### 3. URL Stats
-**Endpoint**: `/api/v1/stats/{shortId}`  
+**Endpoint**: `https://url-shortener-assignment-production.up.railway.app/api/v1/stats/{shortId}`  
 **Method**: `GET`  
 **Description**: This endpoint retrieves statistics for a specific shortened URL. The statistics include the number of clicks and the last accessed time.
 
@@ -111,7 +113,7 @@ Redirects to the original URL
     ```bash
     npm start
 
-The API will be available at http://localhost:4000/api/v1.
+The API will be available at https://url-shortener-assignment-production.up.railway.app/api/v1/.
 
 ### Development
 
@@ -123,4 +125,3 @@ To run the development server with hot reloading:
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
-# URL-Shortener-assignment
