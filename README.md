@@ -2,6 +2,12 @@
 
 Link : https://url-shortener-assignment-production.up.railway.app/api/v1/
 
+
+
+https://github.com/user-attachments/assets/57b9bea0-3d55-4eeb-becd-15ad94787ba5
+
+
+
 A simple URL shortener service that allows users to shorten long URLs and retrieve their original URLs, along with viewing statistics such as the number of clicks and last accessed time.
 
 ## API Endpoints
